@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e3e03c0652.js" crossorigin="anonymous"></script>
+    <!-- Linking SwiperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Digital Marketing Agency</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION START -->
+    <div id="header">
+        <div class="info">
+            <span>AWARD WINNING</span>
+            <h1>DIGITAL MARKETING AGENCY</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, assumenda impedit, magnam harum
+                eligendi qui excepturi minima expedita minus ad, dicta commodi aut! Vero ullam iusto reprehenderit
+                impedit animi eos?</p>
+            <button id="showFormBtn" class="btn">Contact Us</button>
+        </div>
+        <div class="img">
+            <img src="assets/hero.png" alt="img">
+        </div>
+    </div>
+
+    <!-- POP-UP FORM START -->
+    <div id="contactFormContainer" class="hidden">
+        <h2>Talk to us <i class="fa-solid fa-xmark" id="closeFormBtn"></i></h2>
+        <form action="" id="contactForm">
+            <div class="form-container">
+                <div class="inputbox">
+                    <input type="email" id="email" name="email" required />
+                    <label for="email">Work email*</label>
+                </div>
+
+                <div class="userInfo">
+                    <div class="inputbox">
+                        <input type="text" id="firstName" name="firstName" required>
+                        <label for="firstName">First name*</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" id="lastName" name="lastName" required>
+                        <label for="lastName">Last name*</label>
+                    </div>
+                </div>
+            </div>
+            <div class="checkbox-container">
+                <input class="col-1" type="checkbox" id="termsCheckbox" name="termsCheckbox" required>
+                <label class="col-2" for="termsCheckbox">I agree to Fyle's terms and conditions, and provide consent to
+                    send me communication.</label>
+            </div>
+            <button type="submit">Contact Us</button>
+        </form>
+    </div>
+    <!-- POP-UP FORM END -->
+
+    <!-- PORTFOLIO STARTS -->
+
+    <div id="portfolio">
+        <div class="row">
+            <div class="portfolio-col-1">
+                <span>WHAT WE DO</span>
+                <h2>SERVICES PROVIDE FOR YOU</h2>
+            </div>
+            <div class="portfolio-col-2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores aperiam, saepe repudiandae eaque
+                    aliquam reiciendis quidem omnis corrupti ut impedit, earum nihil? Expedita labore quam porro officia
+                    in et molestias!</p>
+            </div>
+        </div>
+
+        <div class="work">
+            <div class="slider">
+                <div class="card">
+                    <img src="assets/1.png" alt="">
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h2>WEB DEVELOPMENT</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, deserunt!</p>
+                        <button class="btn"><a href="https://www.fylehq.com/" target="_blank">READ MORE</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/1.png" alt="">
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h2>WEB DEVELOPMENT</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, deserunt!</p>
+                        <button class="btn"><a href="https://www.fylehq.com/" target="_blank">READ MORE</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/1.png" alt="">
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h2>WEB DEVELOPMENT</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, deserunt!</p>
+                        <button class="btn"><a href="https://www.fylehq.com/" target="_blank">READ MORE</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/1.png" alt="">
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h2>WEB DEVELOPMENT</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, deserunt!</p>
+                        <button class="btn"><a href="https://www.fylehq.com/" target="_blank">READ MORE</a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/1.png" alt="">
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h2>WEB DEVELOPMENT</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, deserunt!</p>
+                        <button class="btn"><a href="https://www.fylehq.com/" target="_blank">READ MORE</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="dot-container">
+                <div class="dot red-dot"></div>
+                <div class="dot black-dot"></div>
+                <div class="dot black-dot"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO ENDS -->
+
+    <!-- ABOUT STARTS -->
+
+    <div id="about">
+        <div class="heading">
+            <p>WHY CHOOSE US</p>
+            <h2>WHY WE ARE BEST</h2>
+        </div>
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/icons/1.svg" alt="">
+                <h3>Clarified Vision & Target</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id alias!</p>
+            </div>
+            <div class="about-col-2">
+                <img src="Assets/icons/2.svg" alt="">
+                <h3>High Performance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id alias!</p>
+            </div>
+            <div class="about-col-3 ">
+                <img src="Assets/icons/3.svg" alt="">
+                <h3>Maintain Security</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id alias!</p>
+            </div>
+            <div class="about-col-4">
+                <img src="Assets/icons/4.svg" alt="">
+                <h3>Better Strategy & Quality</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id alias!</p>
+            </div>
+        </div>
+
+
+        <div class="project">
+            <div class="project-heading">
+                <span>OUR PROJECT</span>
+                <h1>WHY WE ARE BEST</h1>
+            </div>
+            <div class="row">
+                <div class="project-col-1">
+                    <div class="photos">
+                        <img id="mainImage" src="assets/image.png" alt="">
+                    </div>
+                </div>
+                <div class="project-col-2">
+                    <div class="about-photos grey" onclick="changeImage('assets/japan1.jpg')">
+                        <h3>Genderless Kei - Japan's Hot</h3>
+                        <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of
+                        </p>
+                    </div>
+                    <div class="about-photos grey" id="default-selected" onclick="changeImage('assets/image.png')">
+                        <h3>Better Startegy & Quality</h3>
+                        <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of
+                        </p>
+                    </div>
+                    <div class="about-photos grey" onclick="changeImage('assets/japan3.jpg')">
+                        <h3>Genderless Kei - Japan's Hot</h3>
+                        <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT STARTS -->
+
+    <!-- STATS STARTS -->
+
+    <div id="stats">
+        <div class="container">
+            <div class="heading">
+                <span>EXPERTS GROWTH</span>
+                <h1>OUR COMPANY GROWTH</h1>
+            </div>
+            <div class="row">
+                <div class="stats">
+                    <img src="assets/icons/heart.svg" alt="">
+                    <h1>199+</h1>
+                    <p>Satisfied Customers</p>
+                </div>
+                <div class="stats">
+                    <img src="assets/icons/clock.svg" alt="">
+                    <h1>1591+</h1>
+                    <p>Days Of Operation</p>
+                </div>
+                <div class="stats">
+                    <img src="assets/icons/right.svg" alt="">
+                    <h1>283+</h1>
+                    <p>Complete Project</p>
+                </div>
+                <div class="stats">
+                    <img src="assets/icons/trophy.svg" alt="">
+                    <h1>75+</h1>
+                    <p>Win Awards</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- STATS ENDS -->
+
+    <!-- FEEDBACK STARTS -->
+
+    <div id="feedback">
+        <div class="container">
+            <div class="heading">
+                <span>CLIENT'S FEEDBACK</span>
+                <h1>PEOPLE SAY'S ABOUT US !</h1>
+            </div>
+            <div class="feed-parent">
+                <div class="feedbacks">
+                    <h3>Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for
+                        those interested. Sections Bonorum at Malorum Original.</h3>
+                    <span>JANNAT TUMPA</span><span> - COO, AMERIMAR ENTERPRISES, INC.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FEEDBACK END -->
+
+    <!-- FOOTER STARTS -->
+
+    <div id="footer">
+        <img src="assets/Footer.png" alt="">
+    </div>
+
+    <!-- FOOTER ENDS -->
+
+    <script src="index.js"></script>
+    <!-- Linking SwiperJS script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
